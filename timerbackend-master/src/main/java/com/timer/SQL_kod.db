@@ -1,0 +1,6 @@
+CREATE SCHEMA IF NOT EXISTS timer_DB;
+
+CREATE TABLE timer_DB.timer_entity (
+timer_id UUID PRIMARY KEY,
+time     TEXT
+);
